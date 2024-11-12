@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E9FD19912CE32B9D006AB028 /* msg2bark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = msg2bark.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9FD19A62CE32B9F006AB028 /* msg2barkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = msg2barkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9FD19B02CE32B9F006AB028 /* msg2barkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = msg2barkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FD19912CE32B9D006AB028 /* Msg2Bark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Msg2Bark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FD19A62CE32B9F006AB028 /* Msg2BarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Msg2BarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FD19B02CE32B9F006AB028 /* Msg2BarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Msg2BarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		E9FD19922CE32B9D006AB028 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9FD19912CE32B9D006AB028 /* msg2bark.app */,
-				E9FD19A62CE32B9F006AB028 /* msg2barkTests.xctest */,
-				E9FD19B02CE32B9F006AB028 /* msg2barkUITests.xctest */,
+				E9FD19912CE32B9D006AB028 /* Msg2Bark.app */,
+				E9FD19A62CE32B9F006AB028 /* Msg2BarkTests.xctest */,
+				E9FD19B02CE32B9F006AB028 /* Msg2BarkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9FD19902CE32B9D006AB028 /* msg2bark */ = {
+		E9FD19902CE32B9D006AB028 /* Msg2Bark */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9FD19BA2CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "msg2bark" */;
+			buildConfigurationList = E9FD19BA2CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "Msg2Bark" */;
 			buildPhases = (
 				E9FD198D2CE32B9D006AB028 /* Sources */,
 				E9FD198E2CE32B9D006AB028 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				E9FD19932CE32B9D006AB028 /* msg2bark */,
 			);
-			name = msg2bark;
+			name = Msg2Bark;
 			packageProductDependencies = (
 			);
 			productName = msg2bark;
-			productReference = E9FD19912CE32B9D006AB028 /* msg2bark.app */;
+			productReference = E9FD19912CE32B9D006AB028 /* Msg2Bark.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E9FD19A52CE32B9F006AB028 /* msg2barkTests */ = {
+		E9FD19A52CE32B9F006AB028 /* Msg2BarkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9FD19BD2CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "msg2barkTests" */;
+			buildConfigurationList = E9FD19BD2CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "Msg2BarkTests" */;
 			buildPhases = (
 				E9FD19A22CE32B9F006AB028 /* Sources */,
 				E9FD19A32CE32B9F006AB028 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				E9FD19A92CE32B9F006AB028 /* msg2barkTests */,
 			);
-			name = msg2barkTests;
+			name = Msg2BarkTests;
 			packageProductDependencies = (
 			);
 			productName = msg2barkTests;
-			productReference = E9FD19A62CE32B9F006AB028 /* msg2barkTests.xctest */;
+			productReference = E9FD19A62CE32B9F006AB028 /* Msg2BarkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E9FD19AF2CE32B9F006AB028 /* msg2barkUITests */ = {
+		E9FD19AF2CE32B9F006AB028 /* Msg2BarkUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9FD19C02CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "msg2barkUITests" */;
+			buildConfigurationList = E9FD19C02CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "Msg2BarkUITests" */;
 			buildPhases = (
 				E9FD19AC2CE32B9F006AB028 /* Sources */,
 				E9FD19AD2CE32B9F006AB028 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				E9FD19B32CE32B9F006AB028 /* msg2barkUITests */,
 			);
-			name = msg2barkUITests;
+			name = Msg2BarkUITests;
 			packageProductDependencies = (
 			);
 			productName = msg2barkUITests;
-			productReference = E9FD19B02CE32B9F006AB028 /* msg2barkUITests.xctest */;
+			productReference = E9FD19B02CE32B9F006AB028 /* Msg2BarkUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E9FD198C2CE32B9D006AB028 /* Build configuration list for PBXProject "msg2bark" */;
+			buildConfigurationList = E9FD198C2CE32B9D006AB028 /* Build configuration list for PBXProject "Msg2Bark" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9FD19902CE32B9D006AB028 /* msg2bark */,
-				E9FD19A52CE32B9F006AB028 /* msg2barkTests */,
-				E9FD19AF2CE32B9F006AB028 /* msg2barkUITests */,
+				E9FD19902CE32B9D006AB028 /* Msg2Bark */,
+				E9FD19A52CE32B9F006AB028 /* Msg2BarkTests */,
+				E9FD19AF2CE32B9F006AB028 /* Msg2BarkUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		E9FD19A82CE32B9F006AB028 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9FD19902CE32B9D006AB028 /* msg2bark */;
+			target = E9FD19902CE32B9D006AB028 /* Msg2Bark */;
 			targetProxy = E9FD19A72CE32B9F006AB028 /* PBXContainerItemProxy */;
 		};
 		E9FD19B22CE32B9F006AB028 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9FD19902CE32B9D006AB028 /* msg2bark */;
+			target = E9FD19902CE32B9D006AB028 /* Msg2Bark */;
 			targetProxy = E9FD19B12CE32B9F006AB028 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -461,7 +461,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/msg2bark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/msg2bark";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Msg2Bark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Msg2Bark";
 			};
 			name = Debug;
 		};
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/msg2bark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/msg2bark";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Msg2Bark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Msg2Bark";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9FD198C2CE32B9D006AB028 /* Build configuration list for PBXProject "msg2bark" */ = {
+		E9FD198C2CE32B9D006AB028 /* Build configuration list for PBXProject "Msg2Bark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9FD19B82CE32B9F006AB028 /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9FD19BA2CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "msg2bark" */ = {
+		E9FD19BA2CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "Msg2Bark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9FD19BB2CE32B9F006AB028 /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9FD19BD2CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "msg2barkTests" */ = {
+		E9FD19BD2CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "Msg2BarkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9FD19BE2CE32B9F006AB028 /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9FD19C02CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "msg2barkUITests" */ = {
+		E9FD19C02CE32B9F006AB028 /* Build configuration list for PBXNativeTarget "Msg2BarkUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9FD19C12CE32B9F006AB028 /* Debug */,
